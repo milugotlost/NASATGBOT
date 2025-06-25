@@ -113,6 +113,7 @@
 4.  **重要**：務必返回到服務設定頁面，將上一步驟中獲取的 `WEBHOOK_URL` 正確填寫，並再次觸發部署以使 Webhook 生效。
 
 完成這些步驟後，您的 NASA 天文圖機器人應該就能在 Telegram 上正常運作了！
+![image](https://github.com/user-attachments/assets/2b3c9be8-7c34-4928-9d53-f093ee8c9f35)
 
 ---
 
