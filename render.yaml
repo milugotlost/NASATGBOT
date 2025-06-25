@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: nasa-apod-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py # 確保您的主程式檔案名是 main.py
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: NASA_API_KEY
+        sync: false
+      - key: WEBHOOK_URL # 您的 Render 服務的公開 URL
+        sync: false
